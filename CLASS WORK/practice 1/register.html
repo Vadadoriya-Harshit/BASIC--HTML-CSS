@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form</title>
+</head>
+<body>
+
+<hr>
+<h1 align="center">Registration</h1>
+<div style=" width: 600px; height: auto; border: 2px solid black; margin: auto; background-color: skyblue;">
+	<table align="center" bgcolor="skyblue">
+		<form name="register" method="post" action="login.html">
+			
+			<tr>
+				<td>First Name &nbsp;</td>
+				<td><input type="text" required placeholder="Please Enter First Name" name="fname"></td>
+			</tr>
+			<tr>
+				<td>Last Name &nbsp;</td>
+				<td><input type="text" required placeholder="Please Enter last Name" name="lname"></td>
+			</tr>
+			<tr>
+				<td>Email &nbsp;</td>
+				<td><input type="email" required placeholder="Please Enter Email" name="email"></td>
+			</tr>
+			<tr>
+				<td>Mobile &nbsp;</td>
+				<td><input type="tel" required placeholder="Please Enter Mobile Number" name="mobile"></td>
+			</tr>
+			<tr>
+
+				<td>Password &nbsp;</td>
+
+				<td><input type="Password" required placeholder="Please Enter Password" name="pswrd"></td>
+			</tr>
+			<td><label> ConfirmPassword &nbsp;</label></td>
+				
+				<td><input type="Password" required placeholder="Please Confirm Password" name="cpswrd"></td>
+			</tr>
+			 <td>
+			 	<label>gender :</label>
+			 </td>
+			 <td>
+			 	<label>Male</label>
+			 	<input type="radio" name="male" value="Male" required>
+			 	<label>Female</label>
+			 	<input type="radio" name="male" value="feMale" required>
+			 </td>
+			</tr>
+			<tr>
+				<td><label>Hobby</label></td>
+				<td>
+					<label>Reading</label>
+					<input type="checkbox" name="reading" >
+					<label>Travelling</label>
+					<input type="checkbox" name="reading">
+					<label>Playing</label>
+					<input type="checkbox" name="reading">
+					<label>Singing</label>
+					<input type="checkbox" name="reading">
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<label>city</label>
+			</td>
+			<td>
+				<select>
+					<option>Ahmdabad</option>
+					<option>Rajkot</option>
+					<option>Vadodara</option>
+					<option>Surat</option>
+					<option>Porbandar</option>
+					<option>Amreli</option>
+				</select>
+			</td>
+			</tr>
+			<tr>
+				<td><label>Address</label></td>
+				<td>
+					
+					<textarea rows="7" cols="20"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					
+				</td>
+			<td>
+				<input type="submit" name="action">&nbsp;&nbsp;
+				<input type="reset" name="reset">
+			</td>
+		
+				
+			</tr>
+
+		</form>
+	</table>
+		
+	
+</div>
+</body>
+</html>
