@@ -69,12 +69,14 @@ a:link {
   margin-left: 43px;
   
 }
+
 .dropbtn {
   background-color: white;
   color: black;
-  padding: 16px;
+  padding: 10px;
   font-size: 16px;
   border: none;
+
 }
 
 .dropdown {
@@ -130,32 +132,32 @@ input[type="search"] {
   border: 0px solid black;
 }
 .col1 {
-  font-family: sans-serif;
-  margin-top: 45px;
-  margin-left: 40px;
-  
+    font-family: sans-serif;
+    margin-top: 66px;
+    margin-left: 40px;
 }
-.col-1-title{
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 16px;
+.col-1-title {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 0px;
 }
 .list{
   margin-bottom: 6px;
 }
 .col2 {
-  
-  margin-top: -181px;
-  margin-left: 391px;
+    margin-top: -193px;
+    margin-left: 391px;
 }
-.col3{
-  margin-top: -181px;
-  margin-left: 732px;
+.col3 {
+    margin-top: -195px;
+    margin-left: 732px;
 }
 .col4 {
-  margin-top: -118px;
-  margin-left: 1057px;
-}.footer-bottum{
+    margin-top: -116px;
+    margin-left: 1057px;
+}
+.footer-bottum{
   height: 34px;
   width: 250px;
   margin: auto;
@@ -198,6 +200,54 @@ input[type="email"] {
   font-family: sans-serif;
   color: white;
   background-color: dodgerblue;
+}
+/* Slider */
+.slowFade {
+  display: flex;
+  align-items: flex-start;
+  background: #fff;
+  height: 392px;
+  width: 1310px;
+  overflow: hidden;
+  position: relative;
+}
+.slowFade .slide img {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%x;
+  height: auto;
+  background: #000;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  opacity: 0;
+/*    transform: scale(1.5) rotate(15deg);*/
+  -webkit-animation: slowFade 32s infinite;
+          animation: slowFade 15s infinite;
+}
+.slowFade .slide:nth-child(3) img {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+.slowFade .slide:nth-child(2) img {
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+}
+.slowFade .slide:nth-child(1) img {
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
+}
+@keyframes slowFade {
+  25% {
+      opacity: 1;
+      transform: scale(1) rotate(0);
+  }
+  40% {
+      opacity: 0;
+  }
+}
+.slider{
+  margin-left: 53px;
+  margin-top: 2px;
 }
   
 
