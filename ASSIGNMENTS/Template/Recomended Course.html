@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>card make in html css</title>
+	<style type="text/css">
+		.card-row-1{
+     margin-top: 120px;
+    }
+
+.box2 {
+  width: 245px;
+   height: 275px;
+  position: relative;
+  border: 1px solid #BBB;
+  background: white;
+  border-radius: 9px;
+}
+.ribbon {
+  position: absolute;
+  right: -5px; top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px; height: 75px;
+  text-align: right;
+}
+.ribbon span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 100px;
+  display: block;
+  background: #79A70A;
+  background: linear-gradient(#F70505 0%, #8F0808 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px; right: -21px;
+}
+.ribbon span::before {
+  content: "";
+  position: absolute; left: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid #8F0808;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #8F0808;
+}
+.ribbon span::after {
+  content: "";
+  position: absolute; right: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #8F0808;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #8F0808;
+}
+.price_off {
+    font-size: 13px;
+    margin-right: .6rem;
+    text-decoration: line-through;
+    opacity: .7;
+    margin-left: 12px;
+}
+.card-lable {
+    padding-top: 12px;
+}
+.card-icon {
+    letter-spacing: 5px;
+    margin-top: -26px;
+    margin-left: 179px;
+}
+.card-3 {
+    margin-left: 275px;
+    margin-top: -276px;
+}
+
+	</style>
+</head>
+<body>
+	<div class="card-row-1">
+    <div class="box2">
+    <div class="ribbon"><span>33% off</span></div>
+    <img src="C1.webp" alt="card1" width="245" height="149px">
+    <div class="card-lable">
+    <label style=" margin-left: 16px; font-weight:bold;">Goal Setting</label>
+    <p style="font-size: 12px; margin-top: 6px; margin-left: 15px; font-family: sans-serif;">Once You Know What</p>
+    <span style="font-size: 15px; padding-left: 16px;color: #ff6620;">₹</span><span style="font-size: 20px;margin-left: 3px;color: #ff6620;font-weight: 600;">500</span>
+    <span class="price_off" style="font-size: 16px;font-weight: 600;color:black;"><span style="font-family: sans-serif;">₹</span>1000</span>
+    <div class="card-icon">
+      <span><a href="#"><img src="https://img.icons8.com/ios/24/null/shopping-cart--v1.png" style=""></a>
+      <a href="#"><img src="https://img.icons8.com/ios/24/null/like--v1.png"></a></span>
+    </div>
+    <a href="#;" style="text-decoration: none; color:#4a5874 !important;font-size:11px; margin-left: 12px	;" tabindex="0" >By Neeta Training and Consul...
+  </a>
+  </div>
+
+    </div>
+    <div class="card-3">
+    <div class="box2">
+    <div class="ribbon"><span>50% off</span></div>
+    <img src="C2.webp" alt="card1" width="245" height="149px">
+    <div class="card-lable">
+    <label style=" margin-left: 16px; font-weight:bold;">CAIIB MAHACOMBO...</label>
+    <p style="font-size: 12px; margin-top: 6px; margin-left: 15px; font-family: sans-serif;">CAIIB MAHACOMBO PA..</p>
+    <span style="font-size: 15px; padding-left: 16px;color: #ff6620;">₹</span><span style="font-size: 20px;margin-left: 3px;color: #ff6620;font-weight: 600;">2000</span>
+    <span class="price_off" style="font-size: 16px;font-weight: 600;color:black;"><span style="font-family: sans-serif;">₹</span>3999</span>
+    <div class="card-icon">
+      <span><a href="#"><img src="https://img.icons8.com/ios/24/null/shopping-cart--v1.png" style=""></a>
+      <a href="#"><img src="https://img.icons8.com/ios/24/null/like--v1.png"></a></span>
+    </div>
+    <a href="#;" style="text-decoration: none; color:#4a5874 !important;font-size:11px; margin-left: 12px ;" tabindex="0" >By Ambitious Baba
+  </a>
+  </div>
+  </div>
+
+    <div class="card-3">
+    <div class="box2">
+    <div class="ribbon"><span>90% off</span></div>
+    <img src="C3.webp" alt="card1" width="245" height="149px">
+    <div class="card-lable">
+    <label style=" margin-left: 16px; font-weight:bold;">Public Speaking</label>
+    <p style="font-size: 12px; margin-top: 6px; margin-left: 15px; font-family: sans-serif;">To Learn the art o..</p>
+    <span style="font-size: 15px; padding-left: 16px;color: #ff6620;">₹</span><span style="font-size: 20px;margin-left: 3px;color: #ff6620;font-weight: 600;">1000</span>
+    <span class="price_off" style="font-size: 16px;font-weight: 600;color:black;"><span style="font-family: sans-serif;">₹</span>10000</span>
+    <div class="card-icon">
+      <span><a href="#"><img src="https://img.icons8.com/ios/24/null/shopping-cart--v1.png" style=""></a>
+      <a href="#"><img src="https://img.icons8.com/ios/24/null/like--v1.png"></a></span>
+    </div>
+    <a href="#;" style="text-decoration: none; color:#4a5874 !important;font-size:11px; margin-left: 12px ;" tabindex="0" >By Manikandon
+  </a>
+  </div>
+  </div>
+
+  <div class="card-3">
+    <div class="box2">
+    <div class="ribbon"><span>67% off</span></div>
+    <img src="C4.webp" alt="card1" width="245" height="149px">
+    <div class="card-lable">
+    <label style=" margin-left: 16px; font-weight:bold;">The Ultimate Py..</label>
+    <p style="font-size: 12px; margin-top: 6px; margin-left: 15px; font-family: sans-serif;">Learn Python Like...</p>
+    <span style="font-size: 15px; padding-left: 16px;color: #ff6620;">₹</span><span style="font-size: 20px;margin-left: 3px;color: #ff6620;font-weight: 600;">495</span>
+    <span class="price_off" style="font-size: 16px;font-weight: 600;color:black;"><span style="font-family: sans-serif;">₹</span>1500</span>
+    <div class="card-icon">
+      <span><a href="#"><img src="https://img.icons8.com/ios/24/null/shopping-cart--v1.png" style=""></a>
+      <a href="#"><img src="https://img.icons8.com/ios/24/null/like--v1.png"></a></span>
+    </div>
+    <a href="#;" style="text-decoration: none; color:#4a5874 !important;font-size:11px; margin-left: 12px ;" tabindex="0" >By Insights4all Learning Cen...
+  </a>
+  </div>
+  </div>
+
+  <div class="card-3">
+    <div class="box2">
+    <div class="ribbon"><span>70% off</span></div>
+    <img src="k.png" alt="card1" width="245" height="149px">
+    <div class="card-lable">
+    <label style=" margin-left: 16px; font-weight:bold;">Event Management Cou..</label>
+    <p style="font-size: 12px; margin-top: 6px; margin-left: 15px; font-family: sans-serif;">Course For Beginners to E...</p>
+    <span style="font-size: 15px; padding-left: 16px;color: #ff6620;">₹</span><span style="font-size: 20px;margin-left: 3px;color: #ff6620;font-weight: 600;">990</span>
+    <span class="price_off" style="font-size: 16px;font-weight: 600;color:black;"><span style="font-family: sans-serif;">₹</span>3300</span>
+    <div class="card-icon">
+      <span><a href="#"><img src="https://img.icons8.com/ios/24/null/shopping-cart--v1.png" style=""></a>
+      <a href="#"><img src="https://img.icons8.com/ios/24/null/like--v1.png"></a></span>
+    </div>
+    <a href="#;" style="text-decoration: none; color:#4a5874 !important;font-size:11px; margin-left: 12px ;" tabindex="0" >By Jeet
+  </a>
+  </div>
+  </div>
+    </div>		
+  </div></div></div></div>
+
+</body>
+</html>
