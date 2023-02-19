@@ -371,42 +371,7 @@ input[type="email"] {
   margin-left: 40px;
   margin-top: 20px;
 }
-.browse-institutes{
-  width: 670px;
-  height: 170px;
-  border: 1px solid #ebebeb;
-  display: inline-flex;
-  margin-left: 100px;
 
-}
-.institute_tewl {
-font-size: 22px;
-overflow: hidden;
-white-space: nowrap;
-margin-top: 5px;
-padding-left: 72px;
-font-family: inter,sans-serif;
-text-overflow: ellipsis;
-
-}
-.css-1s6abim {
-padding: 0 14px;
-border: 1px solid #1dd38f;
-font-size: 14px;
-line-height: 28px;
-color: #fff;
-background-color: #1dd38f;
-border-radius: 2px;
-cursor: pointer;
-height: 30px;
-line-height: normal;
-border: solid 1px #5e0be0;
-background-color: #fff;
-font-size: 14px;
-padding: 0 6px;
-margin-right: 8px;
-color: #5e0be0;
-}
 .Browsing-Institute{
   width: 670px;
   height: 170px;
