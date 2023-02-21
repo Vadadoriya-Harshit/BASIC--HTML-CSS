@@ -372,8 +372,43 @@ input[type="email"] {
   margin-top: 20px;
 }
 
-.Browsing-Institute{
+.Browsing-Institute {
   width: 670px;
   height: 170px;
-  border: 1px solid black;
+  border: 1px solid #ebebeb;
+  margin-left: 46px;
+}
+.Browsing-Institute2 {
+  width: 670px;
+  height: 170px;
+  border: 1px solid #ebebeb;
+  margin-left: 725px;
+  margin-top: -170px;
+}
+.institutes{
+  margin-left: 0px;
+  margin-top: 20px;
+}
+.loc_open {
+  color: #32a067;
+  border: 1px solid #32a067;
+  font-size: 13px;
+  font-family: inter,sans-serif;
+  padding-left: 3px;
+  padding-right: 4px;
+  margin-left: 18px;
+  padding-top: 2px;
+  font-weight: bold;
+  padding-bottom: 2px;
+  border-radius: 3px;
+  
+}
+.grid-container{
+  width: 1183px;
+  height: 418.99px;
+  margin: auto;
+  border-radius: 8px;
+  display: flex;
+  background-image: url(B13.jpg);
+        
 }
