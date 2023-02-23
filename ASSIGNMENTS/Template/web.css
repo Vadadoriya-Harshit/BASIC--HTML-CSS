@@ -412,3 +412,11 @@ input[type="email"] {
   background-image: url(B13.jpg);
         
 }
+.educators-card{
+  width: 406px;
+  height: 216px;
+  border: 1px solid #ebebeb;
+  border-radius: 7px;
+
+  
+}
