@@ -417,6 +417,11 @@ input[type="email"] {
   height: 216px;
   border: 1px solid #ebebeb;
   border-radius: 7px;
-
-  
+}
+.profile{
+  width: 300px;
+  height: 199px;
+  display: inline-flex;
+  font-family: sans-serif;
+   
 }
