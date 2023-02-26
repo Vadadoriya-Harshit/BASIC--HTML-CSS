@@ -134,10 +134,37 @@ input[type="search"] {
 .cicon {
   margin: auto;
   letter-spacing: 25px;
-  margin-left: 156px;
-  margin-top: 10px;
+  margin-left: 165px;
+  margin-top: 18px;
 }
 /*-----*/
+.dropdown {
+  position: absolute;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 222px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+  
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #white;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+/* .dropdown:hover .dropbtn {background-color: white;} */
 .profile{
       width: 300px;
       height: 199px;
@@ -146,11 +173,13 @@ input[type="search"] {
        
     }
     .profile-Menu {
-  background-color: white;
-  color: black;
-  padding: 10px;
-  font-size: 16px;
-  border: none;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    margin-left: 1077px;
+    margin-top: 8px;
 }
 	</style>
 </head>
@@ -207,33 +236,38 @@ input[type="search"] {
 		src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/30/null/external-help-support-vitaliy-gorbachev-lineal-vitaly-gorbachev.png"></a>
 				<a href="#"><img src="https://img.icons8.com/ios/30/null/like--v1.png" alt="Favourite"></a>
 				<a href="#"><img src="https://img.icons8.com/ios/30/null/shopping-cart--v1.png" alt="Checkout"></a>
-				<span class="profile-Menu"><a href="#"><img class="profile-Menu" src="https://img.icons8.com/ios/30/null/user-male-circle--v1.png" alt="Account"></a>
-</span>
-  <div class="dropdown-content">
-    <div class="profile">
-    <div style=" width: 150px;border: 0px solid black;">
-      <h4 style="margin-left: 20px;">Login/Sign up</h4>
-       <hr style="margin-top: -12px;border-color: #f8f8f8;">
-       <div style="margin-left: -18px;display:flex;">
-        <ul type="none">
-       <a href="#"><li style="margin-top: -10px;">Student Account</li></a>
-       <a href="#"><li style="margin-top: 8px;">Seller Account</li></a>
-        <a href="#"><li style="margin-top: 8px;">Partner Account</li></a>
-        <a href="#"><li style="margin-top: 8px;">Listing Account</li></a></ul>
+        <!-- <a href="#"><img src="https://img.icons8.com/ios/30/null/user-male-circle--v1.png" alt="Account"></a> -->
+        
+      </span>
+      <div class="dropdown">
+
+      <a href="#"><img class="profile-Menu" style="" class="profile-Menu" src="https://img.icons8.com/ios/30/null/user-male-circle--v1.png" alt="Account"></a>
+      
+      <div class="dropdown-content">
+        <div class="profile">
+        <div style=" width: 150px;border: 0px solid black;">
+          <h4 style="margin-left: 20px;">Login/Sign up</h4>
+           <hr style="margin-top: -12px;border-color: #f8f8f8;">
+           <div style="margin-left: -18px;display:flex;">
+            <ul type="none">
+           <a href="#"><li style="margin-top: -10px;">Student Account</li></a>
+           <a href="#"><li style="margin-top: 8px;">Seller Account</li></a>
+            <a href="#"><li style="margin-top: 8px;">Partner Account</li></a>
+            <a href="#"><li style="margin-top: 8px;">Listing Account</li></a></ul>
+            </div>
         </div>
+        <div style=" width: 150px;border: 0px solid black;">
+          <h4 style="margin-left: 27px;">My Account</h4>
+          <hr style="margin-top: -12px;width: 100px;border-color: #f8f8f8;">
+          <ul type="none">
+            <a href="#"><li style="margin-top: 10px;">My Cart</li></a>
+            <a href="#"><li style="margin-top: 8px;">My Wishlist</li></a>
+        </div>
+      </div>
+      </div>
+      </div>
     </div>
-    <div style=" width: 150px;border: 0px solid black;">
-      <h4 style="margin-left: 27px;">My Account</h4>
-      <hr style="margin-top: -12px;width: 100px;border-color: #f8f8f8;">
-      <ul type="none">
-        <a href="#"><li style="margin-top: 10px;">My Cart</li></a>
-        <a href="#"><li style="margin-top: 8px;">My Wishlist</li></a>
-    </div>
   </div>
-  </div>
-  </div>
-			</span>
-		</div>
-	</div>
+</div>
 </body>
 </html>
