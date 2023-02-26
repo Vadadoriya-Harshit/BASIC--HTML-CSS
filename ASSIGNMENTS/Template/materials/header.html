@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	
+}
+.header-start{
+	height: 45px;
+	width: 100%;
+	background-color: #f5f5f5;
+	display: flex;
+}
+.menu{
+
+}
+.hmenu {
+    list-style-type: none;
+    display: flex;
+    gap: 38px;
+    padding-top: 17px;
+    margin-left: 55px;
+    font-family: sans-serif;
+    font-size: 15px;
+	
+}
+/* unvisited link */
+a:link {
+	color: #171414;
+	text-decoration: none;
+	
+	
+  }
+  
+  /* visited link */
+  a:visited {
+	color: #1a1c1a;
+  }
+  
+  /* mouse over link */
+  a:hover {
+	color: blue;
+  }
+  
+  /* selected link */
+  a:active {
+	color: #111113;
+  }
+  .micon {
+    margin-top: 15px;
+    margin-left: 758px;
+    font-size: 16px;
+}
+
+  .dapp {
+	margin-top: 19px;
+	margin-left: 8px;
+}
+.hmiddle{
+  /* border: 1px solid black; */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 93.97px;
+    
+}
+.image {
+  width: 156.02px;
+  height: 35px;
+  margin-top: 26px;
+  margin-left: 43px;
+  
+}
+
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  margin-top: 8px;
+
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 222px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: white;}
+.select {
+  display: flex;
+  margin-top: -46px;
+  margin-left: 232px;
+}
+.search{
+  margin-left: 12px;
+}
+input[type="search"] {
+  padding-left: 20px;
+  font-size: 17px;
+}
+.sicon {
+  margin-top: 14px;
+  margin-left: -36px;
+}
+.cicon {
+  margin: auto;
+  letter-spacing: 25px;
+  margin-left: 156px;
+  margin-top: 10px;
+}
+/*-----*/
+.profile{
+      width: 300px;
+      height: 199px;
+      display: inline-flex;
+      font-family: sans-serif;
+       
+    }
+    .profile-Menu {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+}
+	</style>
+</head>
+<body>
+<!-- Header -->
+	<div class="header-start">
+		<div class="menu">
+			<ul class="hmenu">
+				<a href="#">
+					<li>Self Course</li>
+				</a>
+				<a href="#">
+					<li>List Bussiess</li>
+				</a>
+				<a href="#">
+					<li>Joint Admission Partner</li>
+				</a>
+			</ul>
+		</div>
+		<div class="micon">
+			<a href="#"><img src="https://img.icons8.com/material-outlined/24/null/iphone-x.png" alt="Download app"></a>
+		</div>
+		<div class="dapp">
+			<a href="#"><span><a href="#">Download App</a></span></a>
+		</div>
+	</div>
+	<!-- heder middle -->
+	<div class="hmiddle">
+		<div>
+			<a href="#"><img class="image" src="logonew.png" alt="Digital Class" width="156px" height="35px"></a>
+		</div>
+		<div class="select">
+			<div class="dropdown">
+				<button class="dropbtn">Categories</button>
+				<div class="dropdown-content">
+					<a href="#">Office Tools</a>
+					<a href="#">Bussiness Administrations</a>
+					<a href="#">Cbse</a>
+					<a href="#">Technical Education</a>
+					<a href="#">Dance & Music</a>
+					<a href="#">Icse</a>
+					<a href="#">Bussiness Manangement</a>
+					<a href="#">Math For Kid</a>
+					<a href="#">Soft Skills</a>
+					<a href="#">It & Softwere Devlopment</a>
+					<a href="#">Perxnal Life Style</a>
+					<a href="#">Personality Devlopment</a>
+				</div>
+			</div>
+			<span class="search"> <input type="search" class="form-control" name="search_data" id="search_data"placeholder="Search Courses, Institutions or Services" required="" style="border: 1px solid #1c1d1f;border-radius: 9999px;background: #f8f8f8;height: 50px; width: 666px;margin-top: 5px;margin-left: 12px;"></span>
+			<span class="sicon"><a href="#"><i class="fa fa-search space"></i></a></span>
+			<span class="cicon">
+				<a href="#"><img
+		src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/30/null/external-help-support-vitaliy-gorbachev-lineal-vitaly-gorbachev.png"></a>
+				<a href="#"><img src="https://img.icons8.com/ios/30/null/like--v1.png" alt="Favourite"></a>
+				<a href="#"><img src="https://img.icons8.com/ios/30/null/shopping-cart--v1.png" alt="Checkout"></a>
+				<span class="profile-Menu"><a href="#"><img class="profile-Menu" src="https://img.icons8.com/ios/30/null/user-male-circle--v1.png" alt="Account"></a>
+</span>
+  <div class="dropdown-content">
+    <div class="profile">
+    <div style=" width: 150px;border: 0px solid black;">
+      <h4 style="margin-left: 20px;">Login/Sign up</h4>
+       <hr style="margin-top: -12px;border-color: #f8f8f8;">
+       <div style="margin-left: -18px;display:flex;">
+        <ul type="none">
+       <a href="#"><li style="margin-top: -10px;">Student Account</li></a>
+       <a href="#"><li style="margin-top: 8px;">Seller Account</li></a>
+        <a href="#"><li style="margin-top: 8px;">Partner Account</li></a>
+        <a href="#"><li style="margin-top: 8px;">Listing Account</li></a></ul>
+        </div>
+    </div>
+    <div style=" width: 150px;border: 0px solid black;">
+      <h4 style="margin-left: 27px;">My Account</h4>
+      <hr style="margin-top: -12px;width: 100px;border-color: #f8f8f8;">
+      <ul type="none">
+        <a href="#"><li style="margin-top: 10px;">My Cart</li></a>
+        <a href="#"><li style="margin-top: 8px;">My Wishlist</li></a>
+    </div>
+  </div>
+  </div>
+  </div>
+			</span>
+		</div>
+	</div>
+</body>
+</html>
